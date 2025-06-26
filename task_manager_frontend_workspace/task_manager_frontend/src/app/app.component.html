@@ -3,7 +3,7 @@
     <header>
       <h1>Task Manager</h1>
     </header>
-    <form class="tm-task-form" (submit)="addTask()">
+    <form class="tm-task-form" (ngSubmit)="addTask()" autocomplete="off">
       <input
         type="text"
         class="tm-input"

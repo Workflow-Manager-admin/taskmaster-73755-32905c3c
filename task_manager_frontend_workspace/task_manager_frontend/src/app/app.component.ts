@@ -22,8 +22,13 @@ export class AppComponent {
   // PUBLIC_INTERFACE
   /**
    * Adds a new task to the tasks array and clears the input.
+   * Handles form submission event to prevent page reload.
+   * @param event Form submission event (optional)
    */
-  addTask(): void {
+  addTask(event?: Event): void {
+    if (event) {
+      event.preventDefault();
+    }
     if (this.newTask && this.newTask.trim().length > 0) {
       this.tasks.unshift(this.newTask.trim());
       this.newTask = '';
