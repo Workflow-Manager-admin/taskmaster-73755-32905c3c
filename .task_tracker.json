@@ -1,0 +1,5 @@
+{
+  "task_description": "{'description': 'A task manager application to add and delete tasks.', 'containers': [{'container_name': 'task_manager_frontend', 'platform': 'web', 'framework': 'angular', 'description': 'Frontend application for managing tasks, allowing users to add and delete tasks.', 'interfaces': 'Web UI served to users via HTTP/S', 'workspace': 'task_manager_frontend_workspace', 'container_root': 'task_manager_frontend_workspace/task_manager_frontend', 'dependencies': [], 'container_type': 'frontend', 'container_details': {'features': ['Add task', 'Delete task', 'View task list'], 'colors': {'primary': '#1976d2', 'secondary': '#424242', 'accent': '#e91e63'}, 'theme': 'auto', 'layout_description': 'Single-page layout with a task entry form at the top and a list of added tasks below. Each task can be individually deleted.', 'style': 'modern and minimalistic'}}], '3rd_party_services': [], 'figma_components': '', 'manifest_path': '/home/kavia/workspace/code-generation/.project_manifest.yaml'}",
+  "tasks": {},
+  "next_task_id": 1
+}
