@@ -69,3 +69,23 @@ NG0303: Can't bind to 'ngForOf' since it isn't a known property of 'li' (used in
 2. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.
 NG0303: Can't bind to 'ngIf' since it isn't a known property of 'li' (used in the '_AppComponent' component template).
 If the 'ngIf' is an Angular control flow directive, please make sure that either the 'NgIf' directive or the 'CommonModule' is included in the '@Component.imports' of this component.
+NG0303: Can't bind to 'ngForOf' since it isn't a known property of 'li' (used in the '_AppComponent' component template).
+1. If 'li' is an Angular component and it has the 'ngForOf' input, then verify that it is included in the '@Component.imports' of this component.
+2. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.
+NG0303: Can't bind to 'ngIf' since it isn't a known property of 'li' (used in the '_AppComponent' component template).
+If the 'ngIf' is an Angular control flow directive, please make sure that either the 'NgIf' directive or the 'CommonModule' is included in the '@Component.imports' of this component.
+NG0303: Can't bind to 'ngForOf' since it isn't a known property of 'li' (used in the '_AppComponent' component template).
+1. If 'li' is an Angular component and it has the 'ngForOf' input, then verify that it is included in the '@Component.imports' of this component.
+2. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.
+NG0303: Can't bind to 'ngIf' since it isn't a known property of 'li' (used in the '_AppComponent' component template).
+If the 'ngIf' is an Angular control flow directive, please make sure that either the 'NgIf' directive or the 'CommonModule' is included in the '@Component.imports' of this component.
+NG0303: Can't bind to 'ngForOf' since it isn't a known property of 'li' (used in the '_AppComponent' component template).
+1. If 'li' is an Angular component and it has the 'ngForOf' input, then verify that it is included in the '@Component.imports' of this component.
+2. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.
+NG0303: Can't bind to 'ngIf' since it isn't a known property of 'li' (used in the '_AppComponent' component template).
+If the 'ngIf' is an Angular control flow directive, please make sure that either the 'NgIf' directive or the 'CommonModule' is included in the '@Component.imports' of this component.
+NG0303: Can't bind to 'ngForOf' since it isn't a known property of 'li' (used in the '_AppComponent' component template).
+1. If 'li' is an Angular component and it has the 'ngForOf' input, then verify that it is included in the '@Component.imports' of this component.
+2. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.
+NG0303: Can't bind to 'ngIf' since it isn't a known property of 'li' (used in the '_AppComponent' component template).
+If the 'ngIf' is an Angular control flow directive, please make sure that either the 'NgIf' directive or the 'CommonModule' is included in the '@Component.imports' of this component.
