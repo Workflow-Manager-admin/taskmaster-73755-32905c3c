@@ -9,20 +9,20 @@ The "disableHostCheck" option will not be used because it is not supported by th
 Browser bundles     
 Initial chunk files  | Names            |  Raw size
 polyfills.js         | polyfills        |  90.20 kB | 
-main.js              | main             |   9.55 kB | 
+main.js              | main             |   9.75 kB | 
 styles.css           | styles           |  95 bytes | 
 
-                     | Initial total    |  99.85 kB
+                     | Initial total    | 100.05 kB
 
 
 Server bundles      
 Initial chunk files  | Names            |  Raw size
 polyfills.server.mjs | polyfills.server | 572.91 kB | 
-chunk-AUCGLZHI.mjs   | -                |   9.99 kB | 
+chunk-PJ2TEEWT.mjs   | -                |  10.19 kB | 
 server.mjs           | server           |   1.39 kB | 
 main.server.mjs      | main.server      | 800 bytes | 
 
-Application bundle generation complete. [2.446 seconds]
+Application bundle generation complete. [2.605 seconds]
 
 ▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
 
@@ -69,48 +69,16 @@ NG0303: Can't bind to 'ngForOf' since it isn't a known property of 'li' (used in
 2. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.
 NG0303: Can't bind to 'ngIf' since it isn't a known property of 'li' (used in the '_AppComponent' component template).
 If the 'ngIf' is an Angular control flow directive, please make sure that either the 'NgIf' directive or the 'CommonModule' is included in the '@Component.imports' of this component.
-❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names       |  Raw size
-main.js             | main        |   9.58 kB | 
-
-
-Server bundles     
-Initial chunk files | Names       |  Raw size
-chunk-GMIWZBXS.mjs  | -           |  10.02 kB | 
-server.mjs          | server      |   1.39 kB | 
-main.server.mjs     | main.server | 800 bytes | 
-
-Application bundle generation complete. [0.481 seconds]
-
-▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
-
-    src/app/app.component.html:20:11:
-      20 │       <li *ngFor="let task of tasks; index as i" class="tm-task-it...
-         ╵            ~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:9:15:
-      9 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
-
-    src/app/app.component.html:30:11:
-      30 │       <li *ngIf="tasks.length === 0" class="tm-empty">No tasks yet...
-         ╵            ~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:9:15:
-      9 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-Page reload sent to client(s).
+NG0303: Can't bind to 'ngForOf' since it isn't a known property of 'li' (used in the '_AppComponent' component template).
+1. If 'li' is an Angular component and it has the 'ngForOf' input, then verify that it is included in the '@Component.imports' of this component.
+2. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.
+NG0303: Can't bind to 'ngIf' since it isn't a known property of 'li' (used in the '_AppComponent' component template).
+If the 'ngIf' is an Angular control flow directive, please make sure that either the 'NgIf' directive or the 'CommonModule' is included in the '@Component.imports' of this component.
+NG0303: Can't bind to 'ngForOf' since it isn't a known property of 'li' (used in the '_AppComponent' component template).
+1. If 'li' is an Angular component and it has the 'ngForOf' input, then verify that it is included in the '@Component.imports' of this component.
+2. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.
+NG0303: Can't bind to 'ngIf' since it isn't a known property of 'li' (used in the '_AppComponent' component template).
+If the 'ngIf' is an Angular control flow directive, please make sure that either the 'NgIf' directive or the 'CommonModule' is included in the '@Component.imports' of this component.
 NG0303: Can't bind to 'ngForOf' since it isn't a known property of 'li' (used in the '_AppComponent' component template).
 1. If 'li' is an Angular component and it has the 'ngForOf' input, then verify that it is included in the '@Component.imports' of this component.
 2. To allow any property add 'NO_ERRORS_SCHEMA' to the '@Component.schemas' of this component.
@@ -122,44 +90,3 @@ NG0303: Can't bind to 'ngForOf' since it isn't a known property of 'li' (used in
 NG0303: Can't bind to 'ngIf' since it isn't a known property of 'li' (used in the '_AppComponent' component template).
 If the 'ngIf' is an Angular control flow directive, please make sure that either the 'NgIf' directive or the 'CommonModule' is included in the '@Component.imports' of this component.
 ❯ Changes detected. Rebuilding...
-✔ Changes detected. Rebuilding...
-Browser bundles    
-Initial chunk files | Names       |  Raw size
-main.js             | main        |   9.75 kB | 
-
-
-Server bundles     
-Initial chunk files | Names       |  Raw size
-chunk-PJ2TEEWT.mjs  | -           |  10.19 kB | 
-server.mjs          | server      |   1.39 kB | 
-main.server.mjs     | main.server | 800 bytes | 
-
-Application bundle generation complete. [0.334 seconds]
-
-▲ [WARNING] NG8103: The `*ngFor` directive was used in the template, but neither the `NgFor` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @for or make sure that either the `NgFor` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
-
-    src/app/app.component.html:20:11:
-      20 │       <li *ngFor="let task of tasks; index as i" class="tm-task-it...
-         ╵            ~~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:9:15:
-      9 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-▲ [WARNING] NG8103: The `*ngIf` directive was used in the template, but neither the `NgIf` directive nor the `CommonModule` was imported. Use Angular's built-in control flow @if or make sure that either the `NgIf` directive or the `CommonModule` is included in the `@Component.imports` array of this component. [plugin angular-compiler]
-
-    src/app/app.component.html:30:11:
-      30 │       <li *ngIf="tasks.length === 0" class="tm-empty">No tasks yet...
-         ╵            ~~~~
-
-  Error occurs in the template of component AppComponent.
-
-    src/app/app.component.ts:9:15:
-      9 │   templateUrl: './app.component.html',
-        ╵                ~~~~~~~~~~~~~~~~~~~~~~
-
-
-Page reload sent to client(s).

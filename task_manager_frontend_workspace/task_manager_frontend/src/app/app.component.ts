@@ -29,8 +29,10 @@ export class AppComponent {
     if (event) {
       event.preventDefault();
     }
-    if (this.newTask && this.newTask.trim().length > 0) {
-      this.tasks.unshift(this.newTask.trim());
+    const trimmed = this.newTask?.trim();
+    if (trimmed && trimmed.length > 0) {
+      // Assign to a shallow copy to ensure change detection runs
+      this.tasks = [trimmed, ...this.tasks];
       this.newTask = '';
     }
   }
