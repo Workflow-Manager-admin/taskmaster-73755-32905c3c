@@ -1,0 +1,50 @@
+import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
+// PUBLIC_INTERFACE
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [FormsModule],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
+})
+export class AppComponent {
+  /** Title of the app (not displayed in new design) */
+  title = 'Task Manager';
+
+  /** Array to hold task descriptions */
+  tasks: string[] = [];
+
+  /** Bound to the input field for a new task */
+  newTask = '';
+
+  // PUBLIC_INTERFACE
+  /**
+   * Adds a new task to the tasks array and clears the input.
+   * Handles form submission event to prevent page reload.
+   * @param event Form submission event (optional)
+   */
+  addTask(event?: Event): void {
+    if (event) {
+      event.preventDefault();
+    }
+    const trimmed = this.newTask?.trim();
+    if (trimmed && trimmed.length > 0) {
+      // Assign to a shallow copy to ensure change detection runs
+      this.tasks = [trimmed, ...this.tasks];
+      this.newTask = '';
+    }
+  }
+
+  // PUBLIC_INTERFACE
+  /**
+   * Deletes a task by its index.
+   * @param index Index of the task in the array to remove
+   */
+  deleteTask(index: number): void {
+    if (index > -1 && index < this.tasks.length) {
+      this.tasks.splice(index, 1);
+    }
+  }
+}
